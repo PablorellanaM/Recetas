@@ -3,9 +3,9 @@ package com.example.recetas
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
-class PopularRecipesActivity : AppCompatActivity() {
+class SavedRecipesActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_popular_recipes)
+        setContentView(R.layout.activity_saved_recipes)
     }
 }

@@ -4,6 +4,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular Recipes"
+        android:textSize="24sp"
+        android:padding="16dp" />
 
-
+    <!-- Lista de recetas populares -->
+    <!-- Agrega RecyclerView o ListView aquí para mostrar recetas -->
 </LinearLayout>
